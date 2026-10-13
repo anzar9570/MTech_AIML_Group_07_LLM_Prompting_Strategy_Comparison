@@ -377,11 +377,4 @@ In the supplied results, zero-shot achieved the highest performance, while delib
 
 Because the dataset is synthetic and template-based, further evaluation on realistic, independent data is necessary before drawing conclusions about real-world customer-support systems.
 
-## 17. Presentation
-
-The accompanying presentation is:
-
-`LLM_Prompting_Comparison_20min_10slides.pptx`
-
-Before submission, replace the team/group and presenter placeholders in the presentation and verify that the reported metrics match the final experiment outputs.
 

@@ -1,5 +1,5 @@
 # MTech_AIML_Group_07_LLM_Prompting_Strategy_Comparison
-MAI Assignment
+
 ## 📊 Experimental Results
 
 The project compares Zero-Shot, Good Few-Shot, and Poor Few-Shot prompting on IMDb and AG News.

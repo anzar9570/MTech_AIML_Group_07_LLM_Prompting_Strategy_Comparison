@@ -1,0 +1,7 @@
+dataset,strategy,sample_size,examples_per_class,random_seed,accuracy,macro_precision,macro_recall,macro_f1
+IMDb,zero_shot,20,1,42,0.95,0.9545454545454546,0.95,0.949874686716792
+IMDb,good_few_shot,20,1,42,1.0,1.0,1.0,1.0
+IMDb,poor_few_shot,20,1,42,0.95,0.9545454545454546,0.95,0.949874686716792
+AG News,zero_shot,20,1,42,0.6,0.5961538461538461,0.6,0.5317460317460317
+AG News,good_few_shot,20,1,42,0.75,0.8095238095238095,0.75,0.7413419913419914
+AG News,poor_few_shot,20,1,42,0.6,0.48214285714285715,0.6,0.5288461538461539

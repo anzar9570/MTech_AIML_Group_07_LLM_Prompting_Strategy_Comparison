@@ -1,0 +1,174 @@
+/* PromptEval — light, faculty-friendly Streamlit theme */
+:root {
+  --pe-ink: #172033;
+  --pe-muted: #64748b;
+  --pe-line: #e5eaf2;
+  --pe-blue: #3157d5;
+  --pe-blue-dark: #2343b4;
+  --pe-soft: #f4f7ff;
+}
+
+.stApp {
+  background: #f7f9fc;
+  color: var(--pe-ink);
+}
+
+[data-testid="stHeader"] {
+  background: rgba(247, 249, 252, 0.92);
+}
+
+[data-testid="stSidebar"] {
+  background: #ffffff;
+  border-right: 1px solid var(--pe-line);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+  padding-top: 1.25rem;
+}
+
+.block-container {
+  max-width: 1440px;
+  padding-top: 1.6rem;
+  padding-bottom: 3rem;
+}
+
+.hero {
+  padding: 1.65rem 1.8rem;
+  margin-bottom: 1.4rem;
+  border: 1px solid #dfe7fb;
+  border-radius: 20px;
+  background: linear-gradient(120deg, #ffffff 0%, #f0f5ff 100%);
+  box-shadow: 0 8px 24px rgba(34, 57, 110, 0.045);
+}
+
+.hero .eyebrow {
+  color: var(--pe-blue);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.hero h1 {
+  color: #14213d;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  margin: 0;
+  padding: 0;
+}
+
+.hero p {
+  color: #5a6680;
+  font-size: 1.02rem;
+  margin: 0.45rem 0 0;
+}
+
+h2, h3 {
+  color: #172033;
+  letter-spacing: -0.02em;
+}
+
+div[data-testid="stMetric"] {
+  background: #ffffff;
+  border: 1px solid var(--pe-line);
+  border-radius: 15px;
+  padding: 1rem 1.05rem;
+  box-shadow: 0 4px 14px rgba(28, 45, 82, 0.035);
+}
+
+div[data-testid="stMetricLabel"] {
+  color: var(--pe-muted);
+  font-weight: 600;
+}
+
+div[data-testid="stMetricValue"] {
+  color: #1d3fba;
+  font-weight: 800;
+}
+
+.stButton > button,
+.stDownloadButton > button {
+  border-radius: 10px;
+  font-weight: 650;
+  border: 1px solid #d8e1f3;
+  transition: all 0.15s ease-in-out;
+}
+
+.stButton > button[kind="primary"] {
+  background: var(--pe-blue);
+  border-color: var(--pe-blue);
+  color: #ffffff;
+}
+
+.stButton > button[kind="primary"]:hover {
+  background: var(--pe-blue-dark);
+  border-color: var(--pe-blue-dark);
+  color: #ffffff;
+}
+
+.stTextArea textarea,
+.stTextInput input,
+.stNumberInput input,
+div[data-baseweb="select"] > div {
+  background: #ffffff;
+  border-radius: 10px;
+  border-color: #dbe3ef;
+}
+
+.stTextArea textarea:focus,
+.stTextInput input:focus {
+  border-color: #7894f4;
+  box-shadow: 0 0 0 1px #7894f4;
+}
+
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--pe-line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+[data-testid="stAlert"] {
+  border-radius: 12px;
+}
+
+.result-panel {
+  background: #ffffff;
+  border: 1px solid var(--pe-line);
+  border-radius: 14px;
+  padding: 1rem 1.15rem;
+  min-height: 135px;
+  box-shadow: 0 4px 14px rgba(28, 45, 82, 0.03);
+}
+
+.result-panel h2 {
+  margin-top: 0.3rem;
+  margin-bottom: 0.35rem;
+  color: #1d3fba;
+}
+
+.footer {
+  color: #8490a4;
+  font-size: 0.78rem;
+  text-align: center;
+  border-top: 1px solid var(--pe-line);
+  margin-top: 2.5rem;
+  padding-top: 1.1rem;
+}
+
+code {
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .block-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero {
+    padding: 1.2rem;
+    border-radius: 15px;
+  }
+}

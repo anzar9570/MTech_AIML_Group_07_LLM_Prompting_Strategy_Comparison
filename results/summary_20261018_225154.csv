@@ -1,0 +1,7 @@
+dataset,strategy,sample_size,examples_per_class,random_seed,accuracy,macro_precision,macro_recall,macro_f1
+IMDb,zero_shot,5,1,42,1.0,1.0,1.0,1.0
+IMDb,good_few_shot,5,1,42,1.0,1.0,1.0,1.0
+IMDb,poor_few_shot,5,1,42,1.0,1.0,1.0,1.0
+AG News,zero_shot,5,1,42,0.6,0.375,0.5,0.41666666666666663
+AG News,good_few_shot,5,1,42,0.8,0.6666666666666666,0.75,0.7
+AG News,poor_few_shot,5,1,42,0.8,0.6666666666666666,0.75,0.7

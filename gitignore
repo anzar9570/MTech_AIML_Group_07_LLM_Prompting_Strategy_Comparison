@@ -1,0 +1,63 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/cache/
+
+# Keep experimental results on GitHub
+results/
+
+# Ignore generated results by default
+results/*
+
+# Allow these two result files on GitHub
+!results/latest_details.csv
+!results/latest_summary_.csv
+
+# Dataset caches and downloaded data
+data/
+datasets/
+.cache/
+.cache/huggingface/
+*.arrow
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

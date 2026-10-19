@@ -579,22 +579,6 @@ This project demonstrates:
 
 ---
 
-## 👥 Team & Institution
-
-**Project:** PromptEval — Evaluating LLM Prompting Strategies
-
-**Program:** M.Tech — Computer Science & Engineering
-
-**Institution:** Birla Institute of Technology, Mesra, Ranchi
-
-**Team Members:**
-- Add team member names here.
-
-**Faculty Guide:**
-- Add faculty name here.
-
----
-
 ## 📚 References
 
 1. [IMDb Dataset — Hugging Face](https://huggingface.co/datasets/stanfordnlp/imdb)

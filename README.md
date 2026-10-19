@@ -227,11 +227,13 @@ The project uses **TF-IDF (Term Frequency–Inverse Document Frequency)** to rep
 
 Cosine similarity measures the lexical similarity between the input text and candidate training examples.
 
-\[
-\text{Cosine Similarity}(A,B)
-=
-\frac{A\cdot B}{\|A\|\|B\|}
-\]
+
+### 🔍 Cosine Similarity
+
+$$
+\text{Cosine Similarity}(A,B) = \frac{A \cdot B}{\|A\| \|B\|}
+$$
+
 
 **Good Few-Shot:**
 
